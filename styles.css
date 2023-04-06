@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: kumba sans', sans-serif ;
+}
+
+/* box-sizing determines how the height and width of a box should be calculated make a default border-box
+ */
+
+ .navbar {
+background: #131313;
+height:80px;
+display:flex ;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+position: sticky;
+top: 0;
+z-index: 999;
+
+ }
+
+ .navbar_container {
+display: flex;
+justify-content:left ;
+height: 80px; /* very important*/
+z-index: 1;
+width: 100%; /* very important*/
+max-width: 1300px; /* very important*/
+margin: 0 auto; /*top and bottom is 0 || left and right is auto*/
+padding: 0 50px;/**/
+ }
+ /* the above css blockn is meant to style the logo */
+
+
+
+ #navbar__logo {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb1 100%);
+
+ }
+
+
+
+
+
+
+
